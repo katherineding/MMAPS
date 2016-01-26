@@ -682,9 +682,9 @@ CMakeFiles/darkPhoton.dir/darkPhoton.cc.o
  /home/een7/10.00.p03/include/Geant4/trajectoryControl.hh
  /home/een7/10.00.p03/include/Geant4/trkdefs.hh
  /home/een7/10.00.p03/include/Geant4/windefs.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/darkPhoton.cc
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/ActionInitialization.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/DetectorConstruction.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/darkPhoton.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/ActionInitialization.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/DetectorConstruction.hh
 CMakeFiles/darkPhoton.dir/src/ActionInitialization.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Units/PhysicalConstants.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Units/SystemOfUnits.h
@@ -819,12 +819,12 @@ CMakeFiles/darkPhoton.dir/src/ActionInitialization.cc.o
  /home/een7/10.00.p03/include/Geant4/templates.hh
  /home/een7/10.00.p03/include/Geant4/tls.hh
  /home/een7/10.00.p03/include/Geant4/windefs.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/ActionInitialization.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/DetectorConstruction.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/EventAction.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/H02PrimaryGeneratorAction.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/RunAction.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/ActionInitialization.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/ActionInitialization.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/DetectorConstruction.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/EventAction.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/H02PrimaryGeneratorAction.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/RunAction.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/ActionInitialization.cc
 CMakeFiles/darkPhoton.dir/src/AdjustmentField.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Units/SystemOfUnits.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Units/defs.h
@@ -840,8 +840,8 @@ CMakeFiles/darkPhoton.dir/src/AdjustmentField.cc.o
  /home/een7/10.00.p03/include/Geant4/globals.hh
  /home/een7/10.00.p03/include/Geant4/templates.hh
  /home/een7/10.00.p03/include/Geant4/tls.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/AdjustmentField.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/AdjustmentField.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/AdjustmentField.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/AdjustmentField.cc
 CMakeFiles/darkPhoton.dir/src/CalorHit.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Geometry/BasicVector3D.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Geometry/Normal3D.h
@@ -900,8 +900,8 @@ CMakeFiles/darkPhoton.dir/src/CalorHit.cc.o
  /home/een7/10.00.p03/include/Geant4/globals.hh
  /home/een7/10.00.p03/include/Geant4/templates.hh
  /home/een7/10.00.p03/include/Geant4/tls.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/CalorHit.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/CalorHit.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/CalorHit.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/CalorHit.cc
 CMakeFiles/darkPhoton.dir/src/CalorimeterSD.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Units/PhysicalConstants.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Units/SystemOfUnits.h
@@ -1021,9 +1021,9 @@ CMakeFiles/darkPhoton.dir/src/CalorimeterSD.cc.o
  /home/een7/10.00.p03/include/Geant4/tls.hh
  /home/een7/10.00.p03/include/Geant4/trkdefs.hh
  /home/een7/10.00.p03/include/Geant4/windefs.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/CalorHit.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/CalorimeterSD.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/CalorimeterSD.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/CalorHit.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/CalorimeterSD.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/CalorimeterSD.cc
 CMakeFiles/darkPhoton.dir/src/DetectorConstruction.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Geometry/BasicVector3D.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Geometry/Normal3D.h
@@ -1265,15 +1265,15 @@ CMakeFiles/darkPhoton.dir/src/DetectorConstruction.cc.o
  /home/een7/10.00.p03/include/Geant4/tls.hh
  /home/een7/10.00.p03/include/Geant4/trkdefs.hh
  /home/een7/10.00.p03/include/Geant4/windefs.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/AdjustmentField.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/DetectorConstruction.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/DetectorMessenger.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/OmniHit.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/OmniSD.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/SquareParameterisation.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/TestHit.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/TestSD.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/DetectorConstruction.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/AdjustmentField.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/DetectorConstruction.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/DetectorMessenger.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/OmniHit.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/OmniSD.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/SquareParameterisation.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/TestHit.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/TestSD.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/DetectorConstruction.cc
 CMakeFiles/darkPhoton.dir/src/DetectorMessenger.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Vector/ThreeVector.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Vector/ThreeVector.icc
@@ -1296,9 +1296,9 @@ CMakeFiles/darkPhoton.dir/src/DetectorMessenger.cc.o
  /home/een7/10.00.p03/include/Geant4/globals.hh
  /home/een7/10.00.p03/include/Geant4/templates.hh
  /home/een7/10.00.p03/include/Geant4/tls.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/DetectorConstruction.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/DetectorMessenger.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/DetectorMessenger.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/DetectorConstruction.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/DetectorMessenger.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/DetectorMessenger.cc
 CMakeFiles/darkPhoton.dir/src/EventAction.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Random/DRand48Engine.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Random/DualRand.h
@@ -1645,12 +1645,12 @@ CMakeFiles/darkPhoton.dir/src/EventAction.cc.o
  /home/een7/10.00.p03/include/Geant4/trkdefs.hh
  /home/een7/10.00.p03/include/Geant4/trkgdefs.hh
  /home/een7/10.00.p03/include/Geant4/windefs.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/Analysis.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/DetectorConstruction.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/EventAction.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/OmniHit.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/TestHit.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/EventAction.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/Analysis.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/DetectorConstruction.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/EventAction.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/OmniHit.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/TestHit.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/EventAction.cc
 CMakeFiles/darkPhoton.dir/src/H02PrimaryGeneratorAction.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Random/DRand48Engine.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Random/DualRand.h
@@ -1948,11 +1948,11 @@ CMakeFiles/darkPhoton.dir/src/H02PrimaryGeneratorAction.cc.o
  /nfs/cms/mc1/cjc359/Dark-Photons/madgraph/hepmcbuild/include/HepMC/WeightContainer.h
  /nfs/cms/mc1/cjc359/Dark-Photons/madgraph/hepmcbuild/include/HepMC/enable_if.h
  /nfs/cms/mc1/cjc359/Dark-Photons/madgraph/hepmcbuild/include/HepMC/is_arithmetic.h
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/H02PrimaryGeneratorAction.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/H02PrimaryGeneratorMessenger.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/HepMCG4AsciiReader.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/HepMCG4Interface.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/H02PrimaryGeneratorAction.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/H02PrimaryGeneratorAction.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/H02PrimaryGeneratorMessenger.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/HepMCG4AsciiReader.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/HepMCG4Interface.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/H02PrimaryGeneratorAction.cc
 CMakeFiles/darkPhoton.dir/src/H02PrimaryGeneratorMessenger.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Units/PhysicalConstants.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Units/SystemOfUnits.h
@@ -2087,9 +2087,9 @@ CMakeFiles/darkPhoton.dir/src/H02PrimaryGeneratorMessenger.cc.o
  /home/een7/10.00.p03/include/Geant4/templates.hh
  /home/een7/10.00.p03/include/Geant4/tls.hh
  /home/een7/10.00.p03/include/Geant4/windefs.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/H02PrimaryGeneratorAction.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/H02PrimaryGeneratorMessenger.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/H02PrimaryGeneratorMessenger.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/H02PrimaryGeneratorAction.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/H02PrimaryGeneratorMessenger.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/H02PrimaryGeneratorMessenger.cc
 CMakeFiles/darkPhoton.dir/src/H02SteppingAction.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Random/DRand48Engine.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Random/DualRand.h
@@ -2421,10 +2421,10 @@ CMakeFiles/darkPhoton.dir/src/H02SteppingAction.cc.o
  /home/een7/10.00.p03/include/Geant4/tls.hh
  /home/een7/10.00.p03/include/Geant4/trkdefs.hh
  /home/een7/10.00.p03/include/Geant4/windefs.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/H02SteppingAction.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/H02SteppingAction.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/H02SteppingAction.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/H02SteppingAction.cc
 CMakeFiles/darkPhoton.dir/src/HEPEvtcom.cc.o
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/HEPEvtcom.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/HEPEvtcom.cc
 CMakeFiles/darkPhoton.dir/src/HepMCG4AsciiReader.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Vector/ThreeVector.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Vector/ThreeVector.icc
@@ -2466,10 +2466,10 @@ CMakeFiles/darkPhoton.dir/src/HepMCG4AsciiReader.cc.o
  /nfs/cms/mc1/cjc359/Dark-Photons/madgraph/hepmcbuild/include/HepMC/WeightContainer.h
  /nfs/cms/mc1/cjc359/Dark-Photons/madgraph/hepmcbuild/include/HepMC/enable_if.h
  /nfs/cms/mc1/cjc359/Dark-Photons/madgraph/hepmcbuild/include/HepMC/is_arithmetic.h
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/HepMCG4AsciiReader.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/HepMCG4AsciiReaderMessenger.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/HepMCG4Interface.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/HepMCG4AsciiReader.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/HepMCG4AsciiReader.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/HepMCG4AsciiReaderMessenger.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/HepMCG4Interface.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/HepMCG4AsciiReader.cc
 CMakeFiles/darkPhoton.dir/src/HepMCG4AsciiReaderMessenger.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Vector/ThreeVector.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Vector/ThreeVector.icc
@@ -2514,10 +2514,10 @@ CMakeFiles/darkPhoton.dir/src/HepMCG4AsciiReaderMessenger.cc.o
  /nfs/cms/mc1/cjc359/Dark-Photons/madgraph/hepmcbuild/include/HepMC/WeightContainer.h
  /nfs/cms/mc1/cjc359/Dark-Photons/madgraph/hepmcbuild/include/HepMC/enable_if.h
  /nfs/cms/mc1/cjc359/Dark-Photons/madgraph/hepmcbuild/include/HepMC/is_arithmetic.h
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/HepMCG4AsciiReader.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/HepMCG4AsciiReaderMessenger.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/HepMCG4Interface.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/HepMCG4AsciiReaderMessenger.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/HepMCG4AsciiReader.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/HepMCG4AsciiReaderMessenger.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/HepMCG4Interface.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/HepMCG4AsciiReaderMessenger.cc
 CMakeFiles/darkPhoton.dir/src/HepMCG4Interface.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Random/DRand48Engine.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Random/DualRand.h
@@ -2873,9 +2873,9 @@ CMakeFiles/darkPhoton.dir/src/HepMCG4Interface.cc.o
  /nfs/cms/mc1/cjc359/Dark-Photons/madgraph/hepmcbuild/include/HepMC/WeightContainer.h
  /nfs/cms/mc1/cjc359/Dark-Photons/madgraph/hepmcbuild/include/HepMC/enable_if.h
  /nfs/cms/mc1/cjc359/Dark-Photons/madgraph/hepmcbuild/include/HepMC/is_arithmetic.h
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/Analysis.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/HepMCG4Interface.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/HepMCG4Interface.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/Analysis.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/HepMCG4Interface.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/HepMCG4Interface.cc
 CMakeFiles/darkPhoton.dir/src/OmniHit.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Geometry/BasicVector3D.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Geometry/Normal3D.h
@@ -2946,8 +2946,8 @@ CMakeFiles/darkPhoton.dir/src/OmniHit.cc.o
  /home/een7/10.00.p03/include/Geant4/templates.hh
  /home/een7/10.00.p03/include/Geant4/tls.hh
  /home/een7/10.00.p03/include/Geant4/windefs.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/OmniHit.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/OmniHit.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/OmniHit.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/OmniHit.cc
 CMakeFiles/darkPhoton.dir/src/OmniSD.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Units/PhysicalConstants.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Units/SystemOfUnits.h
@@ -3067,9 +3067,9 @@ CMakeFiles/darkPhoton.dir/src/OmniSD.cc.o
  /home/een7/10.00.p03/include/Geant4/tls.hh
  /home/een7/10.00.p03/include/Geant4/trkdefs.hh
  /home/een7/10.00.p03/include/Geant4/windefs.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/OmniHit.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/OmniSD.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/OmniSD.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/OmniHit.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/OmniSD.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/OmniSD.cc
 CMakeFiles/darkPhoton.dir/src/PrimaryGeneratorAction.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Geometry/BasicVector3D.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Geometry/Normal3D.h
@@ -3307,8 +3307,8 @@ CMakeFiles/darkPhoton.dir/src/PrimaryGeneratorAction.cc.o
  /home/een7/10.00.p03/include/Geant4/templates.hh
  /home/een7/10.00.p03/include/Geant4/tls.hh
  /home/een7/10.00.p03/include/Geant4/windefs.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/PrimaryGeneratorAction.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/PrimaryGeneratorAction.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/PrimaryGeneratorAction.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/PrimaryGeneratorAction.cc
 CMakeFiles/darkPhoton.dir/src/RunAction.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Random/DRand48Engine.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Random/DualRand.h
@@ -3642,9 +3642,9 @@ CMakeFiles/darkPhoton.dir/src/RunAction.cc.o
  /home/een7/10.00.p03/include/Geant4/trajectoryControl.hh
  /home/een7/10.00.p03/include/Geant4/trkdefs.hh
  /home/een7/10.00.p03/include/Geant4/windefs.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/Analysis.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/RunAction.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/RunAction.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/Analysis.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/RunAction.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/RunAction.cc
 CMakeFiles/darkPhoton.dir/src/SquareParameterisation.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Units/PhysicalConstants.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Units/SystemOfUnits.h
@@ -3688,8 +3688,8 @@ CMakeFiles/darkPhoton.dir/src/SquareParameterisation.cc.o
  /home/een7/10.00.p03/include/Geant4/templates.hh
  /home/een7/10.00.p03/include/Geant4/tls.hh
  /home/een7/10.00.p03/include/Geant4/windefs.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/SquareParameterisation.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/SquareParameterisation.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/SquareParameterisation.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/SquareParameterisation.cc
 CMakeFiles/darkPhoton.dir/src/TestHit.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Geometry/BasicVector3D.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Geometry/Normal3D.h
@@ -3761,8 +3761,8 @@ CMakeFiles/darkPhoton.dir/src/TestHit.cc.o
  /home/een7/10.00.p03/include/Geant4/templates.hh
  /home/een7/10.00.p03/include/Geant4/tls.hh
  /home/een7/10.00.p03/include/Geant4/windefs.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/TestHit.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/TestHit.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/TestHit.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/TestHit.cc
 CMakeFiles/darkPhoton.dir/src/TestSD.cc.o
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Units/PhysicalConstants.h
  /cvmfs/cms.cern.ch/slc6_amd64_gcc491/external/clhep/2.1.4.1-cms/include/CLHEP/Units/SystemOfUnits.h
@@ -3885,6 +3885,6 @@ CMakeFiles/darkPhoton.dir/src/TestSD.cc.o
  /home/een7/10.00.p03/include/Geant4/tls.hh
  /home/een7/10.00.p03/include/Geant4/trkdefs.hh
  /home/een7/10.00.p03/include/Geant4/windefs.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/TestHit.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/include/TestSD.hh
- /nfs/cms/mc1/cjc359/MMAPS/darkPhoton2/src/TestSD.cc
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/TestHit.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/include/TestSD.hh
+ /nfs/cms/mc1/cjc359/MMAPS_Sim/darkPhoton2/src/TestSD.cc
