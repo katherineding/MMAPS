@@ -28,6 +28,7 @@
 
 
 //Visualization
+// Note that visualization will not run on the CLASSE farm
 #ifdef G4VIS_USE
 #include "G4VisExecutive.hh"
 #endif
@@ -45,6 +46,7 @@ int main(int argc, char** argv)
   G4Random::setTheEngine(new CLHEP::RanecuEngine);
 
   //construct default run manager
+  //can be multithreaded or not
 
 #ifdef G4MULTITHREADED
   G4MTRunManager* runManager = new G4MTRunManager; 
@@ -59,23 +61,25 @@ int main(int argc, char** argv)
 // 3. Setting the action initialization
 // 4. Initializing the G4 kernel
    */
+
+
   //use specific physics list
-  
+  //Standard is FTFP_BERT
   G4VModularPhysicsList* physicsList = new FTFP_BERT(0);
   physicsList->RegisterPhysics(new G4StepLimiterPhysics());
   runManager->SetUserInitialization(physicsList);
 
-  // runManager->SetUserInitialization(new DarkPhysicsList);
-
+  //Turning down verbosity
   G4HadronicProcessStore::Instance()->SetVerbose(0);
 
+  //Construct and initialize detector construction
   DetectorConstruction* test = new DetectorConstruction();
   runManager->SetUserInitialization(test);
-  //!!!
+
+  //Create Action intialization 
   runManager->SetUserInitialization(new ActionInitialization());
 
   //Initialize G4 kernel
-
   runManager->Initialize();
 
   //Visualization
@@ -84,10 +88,9 @@ int main(int argc, char** argv)
   visManager->Initialize();
 #endif
 
-  //Interface manager
+  //Interface manager that can apply commands to all of the
+  //runs. Verbosity just makes running take forever.
   G4UImanager* UImanager = G4UImanager::GetUIpointer();
- //!!!!
-  //Don't want to hear it, Geant.
   UImanager->ApplyCommand("/tracking/verbose 0");
   UImanager->ApplyCommand("/control/verbose 0");
   UImanager->ApplyCommand("/run/verbose 0");
@@ -99,7 +102,8 @@ int main(int argc, char** argv)
 
 
 
-    //batch mode
+  //batch mode, must write a macro to go along with it. After
+  // compiling the program, run as executable macro.mac
     if (argc !=1)
       {
 	G4String command = "/control/execute ";

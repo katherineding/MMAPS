@@ -46,16 +46,7 @@ G4int hceID =
   G4SDManager::GetSDMpointer()->GetCollectionID(collectionName[0]); 
  hce -> AddHitsCollection( hceID, fHitsCollection);
 
-  /*
-  fHitsCollection 
-    = new OmniHitsCollection(SensitiveDetectorName, collectionName[0]); 
-
-  // Add this collection in hce
-
-  G4int hcID 
-    = G4SDManager::GetSDMpointer()->GetCollectionID(collectionName[0]);
-  hce->AddHitsCollection( hcID, fHitsCollection ); 
-  */
+ 
 }
 
 G4bool OmniSD::ProcessHits(G4Step* step, 
@@ -63,20 +54,11 @@ G4bool OmniSD::ProcessHits(G4Step* step,
 {
 
   G4double edep = step->GetTrack()->GetTotalEnergy();
-  if (edep<0.*MeV) return false;
+  if (edep<0.*MeV) return false; //Could add energy threshold 
 
    OmniHit* hit = new OmniHit();
 
-   /*
-  G4TouchableHistory* touchable 
-    = (G4TouchableHistory*)(step->GetPreStepPoint()->GetTouchable());
-  G4VPhysicalVolume* physical = touchable->GetVolume();
 
-  if(!(hit->GetLogV()))
-    {
-      hit->SetLogV(physical->GetLogicalVolume());
-    }
-   */
 
   hit->SetPos(step->GetPostStepPoint()->GetPosition());
   hit->SetMomentum(step->GetTrack()->GetMomentum());
@@ -85,15 +67,9 @@ G4bool OmniSD::ProcessHits(G4Step* step,
   hit->SetStart(step->GetTrack()->GetVertexPosition());
   hit->SetTar(step->GetTrack()->GetPosition());
   //int parentID = step->GetTrack()->GetParentID();
+
   double parentEng = step->GetTrack()->GetDynamicParticle()->GetTotalEnergy();
-  hit->SetParEnergy(parentEng);
-  /*
-  OmniHit* hit = new OmniHit();
-  
-  hit->SetPos(step->GetPostStepPoint()->GetPosition());;
-  hit->SetMomentum(step->GetTrack()->GetMomentum());
-  hit->SetTotalEnergy(step->GetTrack()->GetTotalEnergy());
-  */
+  hit->SetParEnergy(parentEng); // THIS DOESN'T DO WHAT I WANT IT TO DO
 
   fHitsCollection->insert(hit);
   

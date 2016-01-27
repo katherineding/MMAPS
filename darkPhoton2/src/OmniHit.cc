@@ -2,6 +2,8 @@
  * Dark Photon Omni Hit
  *
  * Detects particle's data most directly
+ *
+ * 
  */
 
 #include "OmniHit.hh"
@@ -22,14 +24,14 @@ G4ThreadLocal G4Allocator<OmniHit>* OmniHitAllocator;
 
 OmniHit::OmniHit()
   : G4VHit(),
-    fTrackID(-1), 
-    fTotalEnergy(0.),
-    fPos(G4ThreeVector()), 
-    fMomentum(G4ThreeVector()), 
-    fCharge(0.), 
-    fStart(G4ThreeVector()), 
-    fTar(G4ThreeVector()), 
-    fParEng(0.)
+    fTrackID(-1), //Particle ID 
+    fTotalEnergy(0.), //Total Energy
+    fPos(G4ThreeVector()),  //Position in the SD object
+    fMomentum(G4ThreeVector()),  //Momentum at the position
+    fCharge(0.),  // Charge of particle
+    fStart(G4ThreeVector()), //Position of particle's origin
+    fTar(G4ThreeVector()), //Redundant position
+    fParEng(0.) //Supposedly parent's energy, but not working yet
 {}
 
 OmniHit::~OmniHit()
@@ -37,6 +39,7 @@ OmniHit::~OmniHit()
 
 
 //Create a hit that exactly mirrors another hit
+//useful in data structures
 OmniHit::OmniHit(const OmniHit& hit)
   : G4VHit()
 { 
@@ -50,6 +53,7 @@ OmniHit::OmniHit(const OmniHit& hit)
   fParEng = hit.fParEng;
 }
 
+//returns hit
 const OmniHit& OmniHit::operator=(const OmniHit& hit)
 {
   fTrackID = hit.fTrackID;
@@ -71,6 +75,7 @@ G4int OmniHit::operator==(const OmniHit& hit) const
 }
 
 
+//Can make visualizatoin different
 void OmniHit::Draw()
 {
   G4VVisManager* pVVisManager = G4VVisManager::GetConcreteInstance();
@@ -88,6 +93,7 @@ void OmniHit::Draw()
 
 void OmniHit::Print()
 {
+  //if you wanted something to print whenever a hit was registered 
 }
 
 

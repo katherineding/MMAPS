@@ -40,8 +40,12 @@ PrimaryGeneratorAction::PrimaryGeneratorAction()
   G4ParticleDefinition* particleDefinition 
     //!!!    
     //Positron beam
-    = G4ParticleTable::GetParticleTable()->FindParticle("gamma");
+    = G4ParticleTable::GetParticleTable()->FindParticle("eplus");
 
+
+  //Currently set to match the specs of the actual beam
+  // when running our simulation, we often instead replace they Geant4 beam
+  // with MadGraph events.
   fParticleSource->GetCurrentSource()->SetParticleDefinition(particleDefinition);
 
   fParticleSource->GetCurrentSource()->GetPosDist()->SetCentreCoords(G4ThreeVector(0,0,-10.5*m));
@@ -82,8 +86,8 @@ PrimaryGeneratorAction::PrimaryGeneratorAction()
   //fParticleSource->GetEneDist()->SetMonoEnergy(5*GeV);
   
   fParticleSource->GetCurrentSource()->GetEneDist()->SetEnergyDisType("Pow");
-  G4double min=500*MeV;
-  G4double max=501*MeV;
+  G4double min=4.9*GeV;
+  G4double max=5.1*GeV;
   G4double mass=particleDefinition->GetPDGMass();
   fParticleSource->GetCurrentSource()->GetEneDist()->SetEmax(max);
   fParticleSource->GetCurrentSource()->GetEneDist()->SetEmin(min);
